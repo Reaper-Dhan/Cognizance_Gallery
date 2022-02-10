@@ -39,6 +39,9 @@
             </form>
             {% else %}
             <form class="form" method='post'>
+                <script>
+                    alert("This is a Django app authentication system. \nMake sure your password has \n - Atleast one uppercase letter \n - Atleast one number \n - Atleast one symbol \nIf your password is not strong the webpage will not take your input and stays in the same register webpage.")
+                </script>
                 <br>
                 <h1>Register</h1><br><br> {% csrf_token %} {% for field in form %}
                 <div class="mb-3">
