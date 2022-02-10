@@ -1,0 +1,54 @@
+.login--wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 100%;
+}
+
+label,
+p {
+    font-family: 'Gideon Roman', cursive;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form {
+    width: 470px;
+    color: black;
+}
+
+body {
+    background: url('../images/loginbg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+.form-control {
+    border: 6px double black;
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+
+.btn {
+    border: 1px solid cyan;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px #03e9f4, 0 0 10px #03e9f4, 0 0 10px #03e9f4, 0 0 10px #03e9f4;
+}
+
+a {
+    font-size: 20px;
+    color: rgb(59, 0, 196);
+}
+
+a:hover {
+    color: rgb(43, 2, 138);
+}

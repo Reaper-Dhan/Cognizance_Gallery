@@ -1,0 +1,40 @@
+body {
+    background: url('../images/adddelbg.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+.card {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #fa837b7a, #e65940ad);
+    box-shadow: 8px 8px 20px #d9543c, -8px -8px 20px #ff7252;
+    padding: 35px;
+    max-width: 700px;
+    width: 90%;
+}
+
+label,
+.file {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    float: left;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.btn {
+    padding: 10px 8px;
+    transform: translate(25px, 10px);
+    border: 0px;
+    font-weight: bold;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 16px;
+}
+
+.btn:hover {
+    padding: 10px 8px;
+    background-color: white;
+    color: black;
+}
